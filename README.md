@@ -6,6 +6,8 @@ This CI service patches recovery images of Samsung to enable Fastbootd. Based on
 - Upload recovery.img/recovery.img.lz4 to any host who provide direct download access (Like Github Releases)
 - Once uploaded copy the URL.
 - Head over to Actions tab. Click on RECOVERY -> Run workflow. Insert the copied URL in the RECOVERY URL field and Start the workflow
+- Github Releases URL Example: https://github.com/ChonDoit/Patch-Recovery/releases/download/A33-5G_A13-BIN5/recovery.img.lz4
+
 - The Patching process will start
 - A Patched-Recovery.zip will be uploaded at the end of the process.
 
